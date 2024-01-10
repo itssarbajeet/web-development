@@ -1,0 +1,25 @@
+/* Boiller place code for Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* This was the boilder plate code need to remember this code */
+
+/* to target a class we use .   
+   
+ */
+
+.main{
+    width: 350px;
+    height: 350px;
+    /* use background-color dont use color  */
+    background-color: #e11e1e;
+    /* remember color is only used for text */
+    color:black;
+
+}

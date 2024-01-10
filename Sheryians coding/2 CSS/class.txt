@@ -1,0 +1,9 @@
+Steps to do for every project in future using html and css
+1) create a html and css file
+2) write there respective boilder plate code
+3) Link both the html and css file (in html file in the head sestion) 
+
+
+How to identify a div
+1) Where there are many items grouped they are within a div
+2) when  you see a rectangular box is also a div
