@@ -23,6 +23,9 @@ player1.score += 1;
 
 console.log(player1.score);
 console.log(player2.score);
+console.log(player3.score);
+console.log(player4.score);
+
 
 player1.pause();
 player2.exit();

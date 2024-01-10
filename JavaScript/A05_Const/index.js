@@ -4,7 +4,7 @@ const PI = 3.14159;
 let radius;
 let circumference;
 
-radius = window.prompt("Enter the radius of a circle");
+radius = prompt("Enter the radius of a circle");
 radius = Number(radius);
 
 //PI = 420.69;

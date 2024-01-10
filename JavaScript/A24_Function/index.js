@@ -18,3 +18,9 @@ function happyBirthday(userName, age){
     console.log("Happy birthday to you!");
     console.log("You are", age,"years old!");
 }
+/*
+datatype anyname =()=>{
+    //functions
+}
+anyname()
+*/

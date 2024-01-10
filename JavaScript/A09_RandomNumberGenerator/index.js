@@ -5,7 +5,7 @@ let z;
 
 document.getElementById("rollButton").onclick = function(){
 
-    x = Math.floor(Math.random() * 6) + 1;
+    x = Math.floor(Math.random() * 6) + 1; //random number between 0-6
     y = Math.floor(Math.random() * 6) + 1;
     z = Math.floor(Math.random() * 6) + 1;
 

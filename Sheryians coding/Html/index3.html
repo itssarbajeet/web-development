@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 3</title>
+</head>
+<body>
+    <!-- Form -->
+    <form >
+        
+        <!-- Input Field -->
+        <!-- here there is nothing specified what to input or not given any hint -->
+        <input type="text"><br>
+        <br>
+
+        <!-- To give the hint we use placeholder  -->
+        <input type="text" placeholder="name"><br><br>
+        <!-- Label Tag -->
+        <!-- Label tag is use to Give that a tag like Name : _____ -->
+        <label for="xyza">Name: </label>
+        <!-- what is the use of for attribute in the label tag then -->
+        <!-- It's used to connect the lable with its corresponding input field -->
+        <!-- if the text in the for is same as the input tag id attribute text then they get connected -->
+        <!-- for example in label tag the for attribute has the text "xyza" -->
+        <!-- and in input tag there is an id attribute which also has the text "xyza"-->
+        <!-- so when we click on the label it will automatically take us to the input field where the-->
+        <!-- cursor should be placed -->
+        <!-- connecting the label and the input tag -->
+        <input id="xyza" type="text" placeholder="name">
+        <!-- Diffent type of input like it was text likewise we can have email ,number ,etc-->
+        <br><br>
+
+        <!-- Email type -->
+        <label for="email">Email:</label>
+        <input  id="email" placeholder="Email"><br><br>
+
+        <!-- Number type -->
+        <label for="number">Number:</label>
+        <input id="number" type="number" placeholder="number"><br><br>
+        
+        <!-- Password type -->
+        <label for="Password">Password:</label>
+        <input id="Password" type="password" placeholder="password"><br><br>
+
+        <!-- Placeholder are only giver where we want to give hint or simple where we want to write some thing -->
+        <!-- so we dont use placeholder in checkbox -->
+
+        <!-- Checkbox type (can be used for multiple choice) -->
+        <label for="Checkbox">Checkbox</label>
+        <input id="Checkbox"type="checkbox" > <br><br>
+    
+    
+        <!-- Radiobox Type (use for single choice) -->
+        <label for="radio">RadioBox multi chocie (Wrong)</label>
+        <input type="radio" >Male
+        <input type="radio" >Female
+        <input type="radio" >Other <br> <br>
+        <!-- But here is a issue that is all the button can be selected to select only one button among this we 
+        use same "Name" in all the radio buttons -->
+        <label for="radio">RadioBox single chocie (Right)</label>
+        <input type="radio" name="abc">Male
+        <input type="radio" name="abc">Female
+        <input type="radio" name="abc">Other <br> <br>
+
+        <!-- File type use to upload file-->
+        <label for="file">File upload</label>
+        <input type="file"><br> <br>
+
+        <!-- range (Use for volume , distance etc) -->
+        <label for="range">Manage or set the range</label>
+        <input  type="range"><br> <br>
+
+        <!-- Date Type -->
+        <label for="date">CALANDER</label>
+        <input type="date"><br> <br>
+
+        <!-- Color  -->
+        <label for="color">SELECT THE COlOR</label>
+        <input type="color"><br> <br>
+
+        <!-- SUMIT(IMPORTANT as it is used to sumit the form) -->
+        <label for="Submit">Submit here buddy -></label>
+        <input type="submit"><br> <br>
+
+
+
+
+
+
+
+
+
+    
+    </form>
+    
+    
+</body>
+</html>

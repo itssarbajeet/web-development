@@ -5,8 +5,11 @@
 // 1. Declaration (var, let, const)
 // 2. Assignment ( = assignment operator)
 
-let firstName = "Bro"; //strings
-let age = 21; //number
+
+
+
+let firstName = prompt("enter the name "); //strings
+let age = prompt("enter the age: ")
 let student = true; //booleans
 
 console.log("Hello", firstName);

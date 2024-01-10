@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gamename">Tic Tac Toe Game</div>
+        <div class="name1">
+            <p id="name1">User 1:</p>
+        </div>
+        <div class="name2">
+            <p id="name2">User 2:</p>
+        </div>
+        <div class="turn">
+            It's User 1's turn
+        </div>
+        <div class="game">
+            <div class="box">
+                <input type="button" class="btn" value=""  id="btn1" onclick="addImageToButton('btn1')" >
+                <input type="button" class="btn" value=""  id="btn2" onclick="addImageToButton('btn2')">
+                <input type="button" class="btn" value=""  id="btn3" onclick="addImageToButton('btn3')">
+            </div>
+            <div class="box"> 
+                <input type="button" class="btn" value=""  id="btn4" onclick="addImageToButton('btn4')">
+                <input type="button" class="btn" value=""  id="btn5"onclick="addImageToButton('btn5')" >
+                <input type="button" class="btn" value=""   id="btn6"onclick="addImageToButton('btn6')">
+            </div>
+            <div class="box">
+                <input type="button" class="btn" value=""   id="btn7"onclick="addImageToButton('btn7')">
+                <input type="button" class="btn" value=""   id="btn8"onclick="addImageToButton('btn8')"> 
+                <input type="button" class="btn" value=""   id="btn9"onclick="addImageToButton('btn9')">
+            </div>
+        </div>
+        <button id="reset-button" onclick="resetGame()">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
