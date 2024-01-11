@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 120px;
+}
+
+                                /* Units */
+
+
+                        /* Pixel Unit (px) */
+
+/* Let there X be a square of 100m^2 then let there be 1000 pixel with in it
+   and There Y be a square of 100m^2 then let there be 2000 pixel with in it then 
+   X is not that clear compared to Y as there are more pixels so it can be said
+   is x is Hd quality then y will be Ultra Hd  */
+
+/* Pixel is not responsive and if we use it then it takes fixed size. when we make the screen small 
+   will make the a scroll bar appears.   */
+
+   #pixels{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+   }
+
+
+
+                            /* Percentage unit (%) */
+/* % means the part of the area Of the parent area x percentage of 100, here x s the value 
+and 100 means the total parent size
+   used for responsive website */
+  
+   #Percentage1{
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+   }
+   #Percentage2{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+   }
+   #Percentage3{
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    color: white;
+   }
+
+                            /* viewport width (vw) */
+/* 1vw = 1 percentage of the total screen 
+like wise 100vw= 100 percentage of the total screen
+it is also responsive and also doesnot depend on the parent size */
+#vw1{
+    background-color: black;
+    width: 100vw;
+    height: 100vw;
+    color: white;
+}
+#vw2{
+    background-color: red;
+    width: 50vw;
+    height: 50vw;
+}
+#vw3{
+    background-color: whitesmoke;
+    width: 25vw;
+    height: 25vw;
+    color: #000;
+}
+
+                             /* EM unit */
+    /* 1 em depends the element font size like 1em means "equal to the current font size", 
+    and 2em means 2 times the current font size. (For example in a 2em unit of measurement, 
+    if your font is 11px (11 pixels), then 2em equals 22 pixels.) */
+
+    /* consider a box having its font size 16px then the box 1 em is 16px so it depends on the 
+    font size */
+    /* Not responsive stays fixed as pixel and depends on the parent size if the font size
+    is not applied to current */
+    #Em1{
+        background-color: #000;
+        color:white;
+        font-size: 50px;
+        width: 2em;
+        height: 2em;
+        overflow: scroll;
+    
+    }
+    /* rem */
+    #rem1{
+        background-color: red;
+        color:white;
+        /* does not depend on the font size of the parent */
+        /* does depend on the font size of the root that is html font size */
+        font-size: 50px;  
+        width: 2rem;
+        height: 2rem;
+        overflow: scroll;
+    }
+
+    /* MAx width  */
+    /*  the maximum width is define it cannot go further than that how
+    much big value you assign */
+    #maxWidth{
+        max-width: 300px;
+        border: solid black ;
+        background-color: aqua;
+        width: 700px;
+        height: 200px;
+    }
+    #minWidth{
+        min-width: 300px;
+        border: solid black ;
+        background-color: aquamarine;
+        width: 400px;
+        height: 200px;
+    }
+    #maxHeight{
+        max-height:  300px;
+        border: solid black ;
+        background-color: palegoldenrod;
+        width: 700px;
+        height: 200px;
+    }
+    #minHeight{
+        min-height: 300px;
+        border: solid black ;
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+
+
+
+
