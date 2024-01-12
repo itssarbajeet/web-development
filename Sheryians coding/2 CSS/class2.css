@@ -6,7 +6,7 @@
 html,body{
     width: 100%;
     height: 100%;
-    font-size: 120px;
+    font-size: 20px;
 }
 
                                 /* Units */
@@ -20,7 +20,7 @@ html,body{
    is x is Hd quality then y will be Ultra Hd  */
 
 /* Pixel is not responsive and if we use it then it takes fixed size. when we make the screen small 
-   will make the a scroll bar appears.   */
+   we can see that a scroll bar appears which is not a good sign for a developer.   */
 
    #pixels{
     background-color: red;
@@ -106,7 +106,9 @@ it is also responsive and also doesnot depend on the parent size */
 
     /* MAx width  */
     /*  the maximum width is define it cannot go further than that how
-    much big value you assign */
+    much big value you assign 
+    let we have assigned 100px max width then if we give the width 300px then it would assume
+    100px max  */
     #maxWidth{
         max-width: 300px;
         border: solid black ;
