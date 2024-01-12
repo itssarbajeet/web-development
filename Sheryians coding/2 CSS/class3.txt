@@ -1,0 +1,12 @@
+how to install fonts
+1) go to google fonts website
+2) click on filter and then on decorative stroke
+3) you will see a list of font families, choose one that suits your needs.
+4) And then click on that font
+5) click download family
+6) Right click on the downloaded font file zip
+7) and select the exact 
+8) go to static 
+9) select all the fonts 
+10) and right clicka and install for all users if option is there else click on install
+11)

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.box{
+    /* padding is a imaginary line across the object or the text */
+    /* Box applies within the box */
+    /* if single value padding will be accross all the sides */
+
+    /* if double value then first value will be for top and bottom 
+    and for second value will be for left and right  */
+
+    /* if four value then it follow as clock like 12,3,6 and then 9 i.e is top, right, bottom , left */
+
+
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    /* Margin is done outside of the box */
+    /* it creates space between two box */
+    margin: 30px;
+    
+}
+
+.border{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 30px;
+    padding: 30px;
+    /* to apply Border usually we need to write three things i.e */
+    border: 3px;
+    border-color:purple;
+    border-style:solid;  
+    /* instead of writting this 3 we can write it at once in
+    "border:3px solid black;" here first is for size of border, second is for type of 
+    border, third is for color of th eborder
+    */
+    
+    /* border-raduis is used to modufy the corners , for example
+    if we have a square box and we apply 10 px border radius then it will be rounder in 
+    four corners of he box
+    if we give 50 % it ensures that the scape is CIRCLE */
+
+    /* Also remember after the border is in circle shape if you apply more border radius after the circle
+    then it will not get anymore affected */
+    border-radius: 50px;
+}
+

@@ -7,8 +7,43 @@ html,body{
     width: 100%;
     height: 100%;
 }
+#Font-html{
+    /* To change the font we use font family */
+    font-family: PlayFair Display;
+    /* After changing the font assume you want to make it thicker, thinner etc
+    Then you can use "font-weight" have a range from 100-900 , 100 -for thinner 
+    to 900 for thicker*/
+    font-weight: 900;
+    /* Lets assume now you want to make the first leeter of every word capital 
+    or all the character in the sentence to upper or lower case */
 
-            
+    /* for that we can use "text-transform" */
+    text-transform: capitalize;
+
+    /* Now you want to make it bold, italic or underline or overline for that use "text-decoration" */
+    text-decoration: underline;
+
+    /* Now for changing the size of Fonts sizes we can use "font-size" */
+    font-size: 10px;
+    /* If the site making is not responsive then you can keep it in pixel */
+    /* If the site making is responsive then you can keep it in view width port (vw) */
+    font-size: 2vw;
+
+}
+
+#line-text-html{
+    /* Line height- Space between two lines */
+    line-height: 1.5;
+
+    /* text-align- the text will shift to the particular place
+    in deafult the text-align is in left side to change it to desired place
+     */
+     /* text-align justify is works is that it does not leave spaces at any side 
+     text-align center is used to make the text align in "center" */
+    text-align: justify;
+    
+}
+
 
 
 
