@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* if car1 is give postion absolute  then it will rise up 
+and car 2 will move place and car3 will also come forward 
+and car1 is in a heigher height so it can go any where with in the
+space*/
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+#cube{
+    right: 1%;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+}
+
+/*if we make the box relative i..e the parent relative then the child will be with in the 
+boundries and if we make the clild absolute */
+
+#box1{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+#cube1{
+    right: 1%;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+}

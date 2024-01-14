@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* if car1 is give postion absolute  then it will rise up 
+and car 2 will move place and car3 will also come forward 
+and car1 is in a heigher height so it can go any where with in the
+space*/
+
+#car1{
+    
+    position: absolute;
+    height: 60px;
+    width: 600px;
+    background-color: aqua;
+}
+#car2{
+    height: 80px;
+    width: 500px;
+    background-color: red;
+}
+#car3{
+  
+    height: 100px;
+    width: 400px;
+    background-color: black;
+}
+
+/* car2 absolute */
+#car12{
+    
+    
+    height: 60px;
+    width: 600px;
+    background-color: aqua;
+}
+#car22{
+    position: absolute;
+    height: 80px;
+    width: 500px;
+    background-color: red;
+}
+#car32{
+  
+    height: 100px;
+    width: 400px;
+    background-color: black;
+}
+/* car3 absolute */
+#car13{
+    height: 60px;
+    width: 600px;
+    background-color: aqua;
+}
+
+#car23{
+    height: 80px;
+    width: 500px;
+    background-color: red;
+}
+#car33{
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background-color: black;
+}

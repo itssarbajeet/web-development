@@ -6,5 +6,28 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: black;
+}
+.block,.inline,.inline-block{
+    background-color:red;
+
+}
+#para1,#para2{
+    display: block;
+    background-color: wheat;
+}
+#para3 , #para4{
+    display: inline;
+    background-color:wheat;
+
+    /* width and height does not work in inline */
+    width: 200px;
+    height: 20px;
+}
+
+#para5 , #para6{
+    display: inline-block;
+    background-color: wheat;
+    /* width and height does not work in inline */
+    width: 200px;
+    height: 20px;
 }

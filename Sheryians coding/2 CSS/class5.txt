@@ -1,0 +1,25 @@
+If we make a para1 and then create another para2 then always para1 will be above and 
+para2 will be below it
+
+Block element:- In deafult the element are in block state that if there is space beside them
+then also they will not allow other element to be in the same line
+
+which is a big problem to over come this we came up with
+
+inline element: if para1 and para2 are inline in nature then they will come in the same line
+but only if there is enough space for para2 to fit in with para1 .if there is no space then para2 will go down.
+and inline doesnot allow to increaase the width and heigth of an element so width and heigth will 
+remain constant.so now how can we solve our problem?
+
+inline block: 
+- it allows us to increase the width and height but still it remains on the same line
+- it comes under flow layout which means it follows the normal flow of text i.e. top
+to bottom or left to right.
+
+
+
+
+
+
+
+
