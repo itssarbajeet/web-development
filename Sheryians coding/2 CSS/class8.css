@@ -15,7 +15,36 @@ html,body{
     background:url(https://plus.unsplash.com/premium_photo-1676977396095-07e0648d92df?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8 ) ;
     /*  the image will not show after this we need to apply background-size: */
     background-size: cover;
+    /* if you give background image as contain then it will make sure to bring the image inside the div the image can repeat */
+    /* if you donot want to repeat you can do "background-repeat:no-repeat" */
+
+
     /* let you many more from the center part of the image for that you need to apply background-position:center */
     background-position: center;
+    /* let you many more from the top, bottom part of the image for that you need to apply background-position:top or bottom as per the requirement */
+
+    
+
+
+
+}#bg2{
+    width: 100px;
+    height: 100px;
+    /* Background can be used to set color, linear-gradient */
+    background: linear-gradient(to right,red,blue,green,yellow,red);
+    /* first the direction, then the colors */
+    /* Directions
+    to left
+    to right
+    to bottom
+    to top
+    to bottom left
+    to bottom right
+    to top left
+    to top right
+     */
+     margin-top: 20px;
+
+
 
 }
