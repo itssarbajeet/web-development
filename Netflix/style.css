@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.firstdiv img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.opdiv{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    background-image: url("https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/blob/main/Video%2053/assets/images/bg.jpg?raw=true");
+}
+.firstdiv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.676);
+
+
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+.imagelogo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logonav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 28%;
+}
+.logonav img{
+    height: 50%;
+
+
+}
+.rnav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dropdown{
+    width: 20%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+
+}
+.dropdown select{
+    height: 100%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.285);
+    color: white;
+
+
+}
+.rbutton{
+    background-color: red;
+    display: flex;
+    border: 1px solid black ;
+    align-items: center;
+    height: 40%;
+    padding: 1vw;
+    border-radius: 0.2vw;
+    color: #fff;
+    
+}
+.rbutton h3{
+    font-weight: 100;
+} 
+.rnavl{
+    height: 50%;
+    width: 50%;
+}
+.rnavr {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+hr{
+    width: 100%;
+    height: 0.4vw;
+    background-color: rgba(29, 27, 27, 0.927);
+    border: none;
+}
+.c1firstdiv{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13em;
+    gap: 1rem;
+    height: 30%;
+    width: 100%;
+    
+}
+.c1firstdiv h1{
+    font-size: 340%;
+}
+.c1firstdiv h3{
+    font-size: 150%;
+    font-weight: 300;
+}
+.c1firstdiv h4{
+    font-size: 150%;
+    font-weight: 200;
+}
+
+.inputWButton{
+    height: 500%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 100%;
+    width: 22%;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 1%;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+button{
+    height: 100%;
+    width: 13%;
+    background-color: red;
+    margin-left: 1vw;
+    padding: 0.5vw;
+    border: 1px solid white;
+    border-radius: 2%;
+
+}
+button h2{
+    color: white;
+    font-weight: 300;
+}
+
+.seconddiv{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+.lsecdiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.lsecdiv h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    color:white;
+}
+.lsecdiv h3{
+    color: #fff;
+}
+.rsecdiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.rsecdiv video{
+    height: 85%;
+    width: 50%;
+}
+.rsecdiv img{
+    position: absolute;
+    height: 55%;
+    width : 60%;
+}
+.thirddiv{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    /* background-color: aqua; */
+}
+.lthirddiv{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+   
+}
+.rthirddiv{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(127, 157, 255); */
+}
+.fourthdiv{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+.lfourthdiv{
+    width: 50%;
+    height: 100%;
+    
+}
+.rfourthdiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+.rfourthdiv video{
+    height: 91%;
+    width: 61%;
+}
+.rfourthdiv img{
+    position: absolute;
+    margin-top: 6%;
+    height: 90%;
+    width: fit-content;
+}
+.fifthdiv{
+    display: flex;
+    width: 100%;
+    height: 75%;
+}
+.lfifthdiv{
+    width: 50%;
+    height: 100%;
+}
+.rfifthdiv{
+    width: 50%;
+    height: 100%;
+}
+footer{
+    display: flex;
+}
+.div1{
+    text-decoration: none;
+}
