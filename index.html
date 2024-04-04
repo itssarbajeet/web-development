@@ -1,28 +1,78 @@
-[
-    {
-        "domain": ".www.sheryians.com",
-        "expirationDate": 1707459790.335163,
-        "hostOnly": false,
-        "httpOnly": true,
-        "name": "__cf_bm",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "N7Dj6EYDqwnMw_XJhVdGWvV9PpjiWqSei6aRfQPlbGw-1707457989-1-AQknPCheOkVxQvHh3OH+9kp6sT0lz0wiQ2hJOdLNd0JhQDkH6Nl9QjbgO/BgoPC87k88pH4ekR3VAyFSriKMZwk="
-    },
-    {
-        "domain": "www.sheryians.com",
-        "expirationDate": 1710050012.154206,
-        "hostOnly": true,
-        "httpOnly": true,
-        "name": "SheryiansAdminPanel",
-        "path": "/",
-        "sameSite": "no_restriction",
-        "secure": true,
-        "session": false,
-        "storeId": null,
-        "value": "s%3ARnTPS8_Kf5-SM6K-jGhiO2nzzJVT7tbW.5Ne%2F8xSHZxGFC9JWHnuKDaXoSEXNOcpfmBofoqRz1iM"
-    }
-]
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longest Common Subsequence Algorithm Visualizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p>Longest Common Subsequence Algorithm Visualization</p>
+    </header>
+    <div class="container inputs">
+        <div id="text_inputs">
+            <input id="text1" type="text" placeholder="First text" maxlength="7">
+            <input id="text2" type="text" placeholder="Second text" maxlength="7">
+        </div>
+        <div id="buttons">
+            <button class="btn btn-light btn-sm cbtn" id="viso" onclick="LCS()">Visualize</button>
+            <button class="btn btn-light btn-sm cbtn" id="calco" onclick="visualize()">Calculate</button>
+        </div>
+    </div>
+    <div id="speedy">
+        <p>Speed</p>
+        <input type="range" id="speed" class="slider" name="points" min="1" max="10" onchange="changer()">
+    </div>
+    <p id="desc">Enter two texts and choose an operation</p>
+    <div id="result">
+        <p id="thelcs">The LCS is: </p>
+        <div id="letters"></div>
+    </div>
+    <div id="internal_parts">
+        <div id="grid"></div>
+        <div class="code">
+            <ul>
+                <li>
+                    <h4>Dynamic Programming</h4>
+                </li>
+                <li>for (var i = 1; i <= text2.length; i++)</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;for (var j = 1; j <= text1.length; j++)</li>
+                <li id="firstif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (text1[j - 1] == text2[i - 1])</li>
+                <li id="firstifline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DP[i][j] =
+                    DP[i - 1][j - 1] + 1;</li>
+                <li id="firstelse">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</li>
+                <li id="firstelseline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DP[i][j]
+                    = max(DP[i - 1][j], DP[i][j - 1]);</li>
+            </ul>
+        </div>
+    </div>
+    <footer>Designed by: Your Name.
+        <br>
+        <a href="https://github.com/yourgithub" target="_blank">Github</a>
+        <br>
+        <a href="https://github.com/yourgithub/LCS" target="_blank">Source code & description</a>
+    </footer>
+
+    <!-- Bootstrap and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Your JavaScript Source -->
+    <script src="source.js"></script>
+</body>
+
+</html>
